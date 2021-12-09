@@ -14,12 +14,17 @@ public class SistControllerListaEventos implements ActionListener{
 		this.janelaPrincipal = janelaPrincipal;
 	}
 
-	@Override
-	public void actionPerformed(ActionEvent e) {
+	public Collection<Evento> actionListener(ActionEvent e) {
 		Collection<Evento> listaEventos = sistema.getEventos().values();
 		for(Evento ev: listaEventos) {
 			JOptionPane.showMessageDialog(janelaPrincipal, ev.toString());
 		}
+		return listaEventos;
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
 	}
 	
 }
