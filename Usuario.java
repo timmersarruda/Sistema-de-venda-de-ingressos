@@ -3,10 +3,10 @@ public class Usuario {
 	
 	private String nomeDoUsuario;
 	private int dataDeNascimento;
-	private int cpf;
+	private String cpf;
 	
 	
-	public Usuario(String nomeDoUsuario, int dataDeNascimento, int cpf) {
+	public Usuario(String nomeDoUsuario, int dataDeNascimento, String cpf) {
 		this.nomeDoUsuario = nomeDoUsuario;
 		this.dataDeNascimento = dataDeNascimento;
 		this.cpf = cpf;
@@ -14,6 +14,14 @@ public class Usuario {
 	
 	public String toString() {
 		return "Usuario: " + this.nomeDoUsuario +" Nascimento: "+ this.dataDeNascimento +" CPF: "+ this.cpf;
+	}
+	
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 
 	public String getNomeDoUsuario() {
@@ -32,15 +40,13 @@ public class Usuario {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 
-	public int getCPF() {
+	public String getCPF() {
 		return cpf;
 	}
 
-	public void setCPF(int cpf) {
+	public void setCPF(String cpf) {
 		this.cpf = cpf;
 	}
-	
-	
 	
 
 }
