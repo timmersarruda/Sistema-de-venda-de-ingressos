@@ -13,7 +13,7 @@ public class SistControllerCadastro implements ActionListener {
 	
 	public void actionPerformed(ActionEvent e) {
 		String nome = JOptionPane.showInputDialog(janelaPrincipal, "Informe o nome do usuario a ser cadastrado: ");
-		int idade = Integer.parseInt(JOptionPane.showInputDialog(janelaPrincipal, "Informe a sua idade: "));
+		String idade = JOptionPane.showInputDialog(janelaPrincipal, "Informe a sua idade: ");
 		String cpf = JOptionPane.showInputDialog(janelaPrincipal, "Informe o seu CPF: ");
 		boolean cadastrou = sistema.cadastrarUsuario(nome, idade, cpf);
 		if(cadastrou) {

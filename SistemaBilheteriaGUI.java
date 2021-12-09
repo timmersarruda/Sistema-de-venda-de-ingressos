@@ -50,6 +50,7 @@ public class SistemaBilheteriaGUI extends JFrame {
 		JMenu menuCadastrarBilhete = new JMenu("Comprar Ingresso");
 		JMenuItem menuComprarIngresso = new JMenuItem("Garanta seu ingresso");
 		menuCadastrarBilhete.add(menuComprarIngresso);
+		menuCadastrarBilhete.addActionListener(new SistControllerCompraBilhete(this.sistema, this));
 		
 		barraDeMenu.add(menuCadastrar);
 		barraDeMenu.add(menuExibirEvento);

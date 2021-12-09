@@ -2,18 +2,18 @@
 public class Usuario {
 	
 	private String nomeDoUsuario;
-	private int dataDeNascimento;
+	private String idade;
 	private String cpf;
 	
 	
-	public Usuario(String nomeDoUsuario, int dataDeNascimento, String cpf) {
+	public Usuario(String nomeDoUsuario, String idade, String cpf) {
 		this.nomeDoUsuario = nomeDoUsuario;
-		this.dataDeNascimento = dataDeNascimento;
+		this.idade = idade;
 		this.cpf = cpf;
 	}
 	
 	public String toString() {
-		return "Usuario: " + this.nomeDoUsuario +" Nascimento: "+ this.dataDeNascimento +" CPF: "+ this.cpf;
+		return "Usuario: " + this.nomeDoUsuario +" Idade: "+ this.idade +" CPF: "+ this.cpf;
 	}
 	
 	public String getCpf() {
@@ -32,12 +32,12 @@ public class Usuario {
 		this.nomeDoUsuario = nomeDoUsuario;
 	}
 
-	public int getDataDeNascimento() {
-		return dataDeNascimento;
+	public String getIdade() {
+		return idade;
 	}
 
-	public void setDataDeNascimento(int dataDeNascimento) {
-		this.dataDeNascimento = dataDeNascimento;
+	public void setDataDeNascimento(String idade) {
+		this.idade = idade;
 	}
 
 	public String getCPF() {
@@ -48,5 +48,4 @@ public class Usuario {
 		this.cpf = cpf;
 	}
 	
-
 }

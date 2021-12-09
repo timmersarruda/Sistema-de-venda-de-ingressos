@@ -12,7 +12,7 @@ public interface SistBilheteria {
 
 	void setIdBilhete(Map<String, Bilhete> idBilhete);
 
-	boolean cadastrarUsuario(String nome, int idade, String cpf);
+	boolean cadastrarUsuario(String nome, String dataNascimento, String cpf);
 	
 	boolean removerUsuario(String cpf);
 

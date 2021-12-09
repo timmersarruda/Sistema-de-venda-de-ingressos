@@ -28,37 +28,31 @@ public class SistControllerListaUsuarios implements SistBilheteria{
 
 	@Override
 	public Map<String, Bilhete> getIdBilhete() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Collection<Usuario> getUsuarios() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Map<String, Evento> getEventos() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public void setIdBilhete(Map<String, Bilhete> idBilhete) {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public boolean cadastrarUsuario(String nome, int idade, String cpf) {
-		// TODO Auto-generated method stub
+	public boolean cadastrarUsuario(String nome, String idade, String cpf) {
 		return false;
 	}
 
 	@Override
 	public boolean removerUsuario(String cpf) {
-		// TODO Auto-generated method stub
 		return false;
 	}
 

@@ -31,7 +31,7 @@ public class SistControleBilheteria implements SistBilheteria{
 	}
 
 	@Override
-	public boolean cadastrarUsuario(String nome, int idade, String cpf) {
+	public boolean cadastrarUsuario(String nome, String idade, String cpf) {
 			if(this.estahCadastrado(cpf)) {
 				return false;
 			}else {
