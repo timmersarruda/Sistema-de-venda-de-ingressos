@@ -60,37 +60,3 @@ public class SistemaBilheteriaGUI extends JFrame {
 		add(new JLabel());
 	}
 }
-
-
-
-
-
-		
-//		
-//		
-//		JMenu menuPesquisarPromoter = new JMenu("Exibir Promoters");
-//		JMenuItem menuExibirPromoter = new JMenuItem("Pesquisar Usuario Promoter");
-//		menuPesquisarPromoter.add(menuExibirPromoter);
-//		menuPesquisarPromoter.addActionListener(new SistControllerListaPromoters(this.sistema,this));
-//		
-//		JMenu menuPesquisarLocais = new JMenu("Exibir Locais disponíveis");
-//		JMenuItem menuExibirLocais = new JMenuItem("Pesquisar local disponível");
-//		menuPesquisarLocais.add(menuExibirLocais);
-//		
-//		JMenu menuExibirEvento = new JMenu("Exibir eventos");
-//		JMenuItem menuPesquisarEventos = new JMenuItem("Buscar próximos eventos ");
-//		menuExibirEvento.add(menuPesquisarEventos);
-//	
-//	
-//		barraDeMenu.add(menuCadastrarUsuario);
-//		barraDeMenu.add(menuPesquisarPromoter);
-//		barraDeMenu.add(menuExibirLocais);
-//		barraDeMenu.add(menuExibirEvento);
-//		add(barraDeMenu);
-//		add(linha1);
-//		add(new JLabel());
-//		
-//	}
-//	
-//	
-//}
